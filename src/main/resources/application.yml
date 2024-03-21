@@ -1,11 +1,10 @@
-server:
-  port: 8081
+
 
 spring:
   datasource:
-    username: root
-    password: Password786
-    url: jdbc:mysql://localhost:3306/sbr_db
+    username: sql6693175
+    password: lAHmYrjwnx
+    url: jdbc:mysql://sql6.freesqldatabase.com:3306/sql6693175
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     show-sql: true
