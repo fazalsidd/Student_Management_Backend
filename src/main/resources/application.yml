@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    username: ${env.SQL_USERNAME}
-    password: ${env.SQL_PASSWORD}
-    url: jdbc:mysql://localhost:3306/${env.SQL_DATABASE}
+    username: root
+    password: Password786
+    url: jdbc:mysql://localhost:3306/sbr_db
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     show-sql: true
