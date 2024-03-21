@@ -1,12 +1,11 @@
-
-
 spring:
   datasource:
-    username: sql6693175
-    password: lAHmYrjwnx
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
     url: jdbc:mysql://sql6.freesqldatabase.com:3306/sql6693175
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
     show-sql: true
     hibernate:
       ddl-auto: update
